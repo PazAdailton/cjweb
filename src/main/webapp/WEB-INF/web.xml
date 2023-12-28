@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UsuarioController</servlet-name>
+  	<display-name>UsuarioController</display-name>
+  	<description>usucontroller.do</description>
+  	<servlet-class>br.com.cjweb.controller.UsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UsuarioController</servlet-name>
+  	<url-pattern>/usucontroller.do</url-pattern>
+  </servlet-mapping>
 </web-app>
